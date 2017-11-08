@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.6.4",
 	"appid": "touristappid",
-	"projectname": "miniapp-demo",
+	"projectname": "xuxuegang",
 	"condition": {
 		"search": {
 			"current": -1,
