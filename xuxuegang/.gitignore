@@ -1,5 +1,4 @@
-/*
-!.gitignore
-!/app.json
-!/home/*.js
-!/home/*.wxml
+# ignore typings folder
+typings/
+
+
