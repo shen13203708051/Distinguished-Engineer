@@ -15,7 +15,7 @@
     "backgroundColor": "#fff",
     "list": [
       {
-        "pagePath": "pages/home/home", 
+        "pagePath": "pages/home/home",
         "text": "首页"
       },
       {
