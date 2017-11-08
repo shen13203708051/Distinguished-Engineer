@@ -1,1 +1,2 @@
-# Distinguished-Engineer
+# 好快科技 X 武汉理工大学自动化学院
+## 卓越工程师实训
