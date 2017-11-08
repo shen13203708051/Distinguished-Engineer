@@ -1,0 +1,7 @@
+<view>
+  <block wx:for="{{arr}}">
+    <view>
+      <text>{{index + 1}} '{{item}}'</text>
+    </view>
+  </block>
+</view>
