@@ -20,6 +20,7 @@
     }],
     "color":"#000",
     "selectedColor":"#f00",
-    "backgroundColor":"#fff"
+    "backgroundColor":"#fff",
+    "borderStyle":"black"
   }
 }
