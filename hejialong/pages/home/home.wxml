@@ -1,6 +1,6 @@
 <view class="button-area">
-  <button disabled="{{!canAdd}}" type="primary" plain="true" bindtap="add" hover-class>加</button>
-  <button disabled="{{!canRemove}}" type="primary" plain="true" bindtap="delete" hover-class>减</button>
+  <button class="{{canAdd?'show':'hide'}}" type="primary" plain="true" bindtap="add" hover-class>加</button>
+  <button class="{{canRemove?'show':'hide'}}" type="primary" plain="true" bindtap="delete" hover-class>减</button>
 </view>
 <view>
   <block wx:for="{{arr}}">
