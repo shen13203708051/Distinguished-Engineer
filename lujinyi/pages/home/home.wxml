@@ -1,6 +1,10 @@
 <!--pages/home/home.wxml-->
-<button bindtap="add" wx:if="{{disabledNum <=26}}"> 加 </button>
-<button bindtap="minus" wx:if="{{disabledNum >= 7}}"> 减 </button>
+<block wx:if="{{disabledNum <=26}}">
+  <button class="home" bindtap="add"> 加 </button>
+</block>
+<block wx:if="{{disabledNum>= 7}}">
+    <button class="home" bindtap="minus"> 减 </button>
+</block>
 
 <view wx:for="{{array}}">
   {{index+1}}: '{{item}}'
