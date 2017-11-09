@@ -7,18 +7,20 @@ Page({
   },
   add: function (e) {
     const length = this.data.Array.length
-    this.data.Array.push(this.data.ArrayBuff[length - 7])
+    let newArray = this.data.Array
+    newArray.push(this.data.ArrayBuff[length - 7])
     this.setData({
-      Array: this.data.Array,
+      Array: newArray,
       canAdd: length < 25,
       canSub: length > 5
     })
   },
   sub: function (e) {
     const length = this.data.Array.length
-    this.data.Array.pop()
+    let newArray = this.data.Array
+    newArray.pop()
     this.setData({
-      Array: this.data.Array,
+      Array: newArray,
       canAdd: length < 25,
       canSub: length > 8
     })
