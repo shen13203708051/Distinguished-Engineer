@@ -9,7 +9,4 @@
     </view>
   </block>
 </view>
-<view>
-  <text>{{text}}</text>
-</view>
 
