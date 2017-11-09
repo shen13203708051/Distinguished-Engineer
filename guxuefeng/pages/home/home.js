@@ -6,10 +6,20 @@ Page({
             'o', 'p', 'q', 'r', 's', 't',
             'u', 'v', 'w', 'x', 'y', 'z'
         ],
-    }
-})
-
-
+    },
+    add: function(e) {   
+         if (this.data.array.length < 26){
+            let  newArray=this.data.array   
+            let  newExtraArray=this.data.extraArray   
+            let  N =newExtraArray.shift ()     
+            newArray.push(N)    
+              this.setData({     
+                 array: newArray,   
+                extraArray: newExtraArray    
+              })    
+           }    
+        }
+})   
 
 
 //         this.setData({
