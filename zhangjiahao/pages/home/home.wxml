@@ -1,0 +1,7 @@
+<!--pages/home/home.wxml-->
+<!--pages/home/home.wxml-->
+
+<!--pages/home/home.wxml-->
+<block wx:for="{{array}}">
+      <view>{{index+1}} '{{item.message}}'</view>
+</block>
