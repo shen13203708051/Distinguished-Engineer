@@ -7,7 +7,7 @@ Page({
   },
   add: function (e) {
     let newArray = this.data.Array
-    newArray.push(this.data.ArrayBuff[length - 7])
+    newArray.push(this.data.ArrayBuff[newArray.length - 7])
     this.setData({
       Array: newArray,
       canAdd: newArray.length < 26,

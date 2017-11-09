@@ -1,5 +1,9 @@
-<button disabled = "{{!canAdd}}" bindtap="add">Add</button>
-<button disabled = "{{!canSub}}" bindtap="sub">Sub</button>
+<view wx:if="{{canAdd}}">
+  <button bindtap="add">Add</button>
+</view>
+<view wx:if="{{canSub}}">
+<button bindtap="sub">Sub</button>
+</view>
 <view wx:for="{{Array}}" wx:for-index="idx" wx:for-item="itemName">
   {{idx+1}} '{{itemName}}'
 </view>
