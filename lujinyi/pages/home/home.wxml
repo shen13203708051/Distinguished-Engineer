@@ -1,6 +1,6 @@
 <!--pages/home/home.wxml-->
-<button disabled="{{disabled}}" bindtap="add"> 加 </button>
-<button disabled="{{disabled}}" bindtap="minus"> 减 </button>
+<button disabled="{{disabled1}}" bindtap="add"> 加 </button>
+<button disabled="{{disabled2}}" bindtap="minus"> 减 </button>
 
 <view wx:for="{{array}}">
   {{index+1}}: '{{item}}'
