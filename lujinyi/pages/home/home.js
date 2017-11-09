@@ -9,20 +9,21 @@ Page({
   'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'],
   data: {
     array:['a', 'b', 'c', 'd', 'e' , 'f', 'g'],
-    disabled1: false,
-    disabled2: false
+    disabledNum:7
   },
 
 add: function(e){
 this.arrayNow.push(this.arrayTemp[this.arrayNow.length])
 this.setData({
-array:this.arrayNow
+array:this.arrayNow,
+disabledNum:this.arrayNow.length
 })
 },
 minus: function(e){
 this.arrayNow.pop()
 this.setData({
-array:this.arrayNow
+array:this.arrayNow,
+disabledNum:this.arrayNow.length
 })
 }
 })
