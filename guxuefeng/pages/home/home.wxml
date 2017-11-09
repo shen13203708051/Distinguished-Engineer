@@ -1,4 +1,31 @@
 <!--wxml-->
-<view wx:for="{{array}}">
-    {{index+1}} '{{item}}''
+<view class="btn-area">
+  <view class="body-view">
+
+    <block wx:if="{{array.length < 26}}">
+      <view>
+        <button bindtap="add">add</button>
+      </view>
+    </block>
+
+    <block wx:if="{{array.length > 7}}">
+      <view>
+        <button bindtap="minus">minus</button>
+      </view>
+    </block>
+
   </view>
+</view>
+
+<view>
+  <block wx:for="{{array}}">
+    <view>
+      <text> {{index+1}} '{{item}}' </text>
+    </view>
+  </block>
+</view>
+
+
+
+
+
