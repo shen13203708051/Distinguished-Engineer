@@ -1,9 +1,9 @@
 <view>
   <view >
-    <block wx:if="{{!arrIsFull}}">
+    <block wx:if="{{arr.length < 26}}">
       <button bindtap="add" size="mini" type="default"> add </button>
     </block>
-    <block wx:if="{{!alpIsFull}}">
+    <block wx:if="{{arr.length > 7}}">
       <button bindtap="remove" size="mini" type="default"> remove </button>
     </block>
   </view>
