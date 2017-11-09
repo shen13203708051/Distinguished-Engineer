@@ -1,5 +1,5 @@
 <button bindtap="add">Add</button>
 <button bindtap="sub">Sub</button>
-<view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
-  {{idx+1}} '{{array[idx]}}'
+<view wx:for="{{Array}}" wx:for-index="idx" wx:for-item="itemName">
+  {{idx+1}} '{{Array[idx]}}'
 </view>
