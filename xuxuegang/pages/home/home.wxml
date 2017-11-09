@@ -1,8 +1,19 @@
 <view>
-  <block wx:for="{{array}}">
-    <view>
-      <text>{{index + 1}} '{{item.message}}'</text>
-    </view>
-  </block>
+  <view >
+    <block wx:if="{{!arrIsFull}}">
+      <button bindtap="add" size="mini" type="default"> add </button>
+    </block>
+    <block wx:if="{{!alpIsFull}}">
+      <button bindtap="remove" size="mini" type="default"> remove </button>
+    </block>
+  </view>
+  <view>
+    <block wx:for="{{arr}}">
+      <view>
+        <text>{{index + 1}} '{{item}}'</text>
+      </view>
+    </block>
+  </view>
 </view>
+
 
