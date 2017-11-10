@@ -1,1 +1,5 @@
 /* pages/home/home.wxss */
+.home {
+  margin: 0 auto;
+  width: 60%;
+}
