@@ -1,3 +1,7 @@
+<view class="button-area">
+  <button class="{{canAdd?'show':'hide'}}" type="primary" plain="true" bindtap="add" hover-class>加</button>
+  <button class="{{canRemove?'show':'hide'}}" type="primary" plain="true" bindtap="delete" hover-class>减</button>
+</view>
 <view>
   <block wx:for="{{arr}}">
     <view>
@@ -5,3 +9,4 @@
     </view>
   </block>
 </view>
+

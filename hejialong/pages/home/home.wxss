@@ -1,1 +1,13 @@
 /* pages/home/home.wxss */
+.button-area{
+  margin: 0 auto;
+  width: 60%;
+}
+
+.hide{
+  display: none;
+ }
+
+ .show{
+  display: block;
+ }
