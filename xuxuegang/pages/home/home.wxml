@@ -1,5 +1,5 @@
 <view>
-  <view >
+  <view class="bottons">
     <block wx:if="{{arr.length < 26}}">
       <button bindtap="add" size="mini" type="default"> add </button>
     </block>
@@ -7,7 +7,7 @@
       <button bindtap="remove" size="mini" type="default"> remove </button>
     </block>
   </view>
-  <view>
+  <view class="text">
     <block wx:for="{{arr}}">
       <view>
         <text>{{index + 1}} '{{item}}'</text>

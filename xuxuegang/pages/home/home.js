@@ -9,7 +9,7 @@ Page({
     let newArr = this.data.arr;
     let newAlp = this.data.alp;
     let alpha = newAlp.shift();
-    newArr.push(alpha)
+    newArr.push(alpha);
     this.setData({
       arr: newArr,
       alp: newAlp
@@ -18,8 +18,8 @@ Page({
   remove: function(e) {
     let newArr = this.data.arr;
     let newAlp = this.data.alp;
-    let alpha = newArr.pop()
-    newAlp.unshift(alpha)
+    let alpha = newArr.pop();
+    newAlp.unshift(alpha);
     this.setData({
       arr: newArr,
       alp: newAlp
